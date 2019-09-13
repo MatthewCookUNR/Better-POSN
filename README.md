@@ -6,8 +6,6 @@ The development of cloud storage is starting to become useful to maintain person
 ### Project Status
 Original development was done as in a small team in Spring of 2018.
 
-Development is now continued as of September 12th, 2019.
-
 ### Technologies Used
 - JavaScript
 - JQuery
