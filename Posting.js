@@ -1379,7 +1379,7 @@ function createPost(obj,i,templateCardPost)
 		{
 			console.log(response.result);
 			fileID = response.result.files[0].id;
-			console.log(fileID)
+			console.log(fileID);
 		}, function(reason) 
 		{
 			console.log('Error: ' + reason.result.error.message);
@@ -1422,6 +1422,6 @@ function onSignIn(googleUser){
 function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then(function () {
- 
+		console.log("Sign out");
     });
   }

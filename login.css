@@ -1,5 +1,5 @@
 
-li a:hover {
+#topButtons li a:hover {
     background-color: #AD2AB2;
 }
 	
@@ -59,18 +59,19 @@ body b{
 }*/ 
 
 
-li {
+#topButtons li {
     float: left;
 	font-family: 'Advent Pro';font-size: 14px;
 }
 
-li a {
+#topButtons li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+
 h1 {
     font-family: 'Advent Pro';font-size: 50px;
 	color: white; 
@@ -196,3 +197,5 @@ register input[type=button]:hover{
   text-align: center;
   font-size: 12px;
 }
+
+::
